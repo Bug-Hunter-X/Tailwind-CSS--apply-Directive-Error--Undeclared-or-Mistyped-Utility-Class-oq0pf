@@ -1,0 +1,8 @@
+The solution is to carefully check the spelling of the utility class used within the `@apply` directive. Refer to the Tailwind CSS documentation for the correct class names.
+
+```css
+/* bugSolution.css */
+.my-element {
+  @apply bg-blue-500 p-4 rounded;
+}
+```
