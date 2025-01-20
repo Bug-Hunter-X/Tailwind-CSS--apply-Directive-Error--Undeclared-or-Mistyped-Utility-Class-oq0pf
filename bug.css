@@ -1,0 +1,1 @@
+This error occurs when using Tailwind CSS's `@apply` directive with a utility class that doesn't exist or has a typo.  For example, if you try to apply a class called `bg-ble` instead of `bg-blue`, Tailwind will throw an error during the build process because it cannot find the `bg-ble` utility.
